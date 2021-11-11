@@ -1,2 +1,1 @@
-# SMFAI
-Smart Mirror-Based Fashion AI
+# SMFAI (Smart Mirror-Based Fashion AI)
