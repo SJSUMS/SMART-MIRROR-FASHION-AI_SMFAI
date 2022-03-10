@@ -2,7 +2,13 @@ This project is highly influenced and inferred by [Toward Characteristic-Preserv
 
 
 # Dataset
-Training/Testing: [VTON](https://github.com/xthan/VITON), [Processed](https://drive.google.com/open?id=1MxCUvKxejnwWnoZ-KoCyMCXo3TLhRuTo)
+- Train/Eval 
+	* [VTON](https://github.com/xthan/VITON)
+	* [Processed](https://drive.google.com/open?id=1MxCUvKxejnwWnoZ-KoCyMCXo3TLhRuTo)
+- Test
+	* Reference Person: [LIP (Look Into People)](https://github.com/hyk1996/Single-Human-Parsing-LIP)
+	* Target Cloth: [FPI (Fashion Product Image)](https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset)
+	* Video: Superdry Inc.
 
 # Modules
 - Garment Detection
@@ -21,7 +27,7 @@ Training/Testing: [VTON](https://github.com/xthan/VITON), [Processed](https://dr
 
 
 ### Contributor
-|Module  | Human Pose Estimation | Garment Segmentation | Garment Warping (GMM) |  Try-On (TOM)|
+|SMFAI Modules  | Human Pose Estimation | Garment Segmentation | Garment Warping (GMM) |  Try-On (TOM)|
 |:------ | :----- | :------ | :----- | :----|
 |Contributor  | Mavis Wang | Xiaocen Xie |  Ililta Gebrihiwet  | CoCo Yu |
 
