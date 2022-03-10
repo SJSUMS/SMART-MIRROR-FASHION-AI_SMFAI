@@ -1,4 +1,4 @@
-This project is highly influenced by [Toward Characteristic-Preserving Image-based Virtual Try-On Network](https://arxiv.org/abs/1807.07688) and [CP-VTON](https://github.com/sergeywong/cp-vton).
+This project is highly influenced and inferred by [Toward Characteristic-Preserving Image-based Virtual Try-On Network](https://arxiv.org/abs/1807.07688) and [CP-VTON](https://github.com/sergeywong/cp-vton).
 
 
 # Dataset
