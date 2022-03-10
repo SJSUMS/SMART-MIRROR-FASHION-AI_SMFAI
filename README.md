@@ -1,10 +1,36 @@
+This project is highly influenced by [Toward Characteristic-Preserving Image-based Virtual Try-On Network](https://arxiv.org/abs/1807.07688) and [CP-VTON](https://github.com/sergeywong/cp-vton).
+
+
 # Dataset
+Training/Testing: [VTON](https://github.com/xthan/VITON), [Processed](https://drive.google.com/open?id=1MxCUvKxejnwWnoZ-KoCyMCXo3TLhRuTo)
+
 # Modules
 - Garment Detection
-- Human Pose Estimation
-  Keypoints Params = 17 detected keypoints in [Coco Format](https://cocodataset.org/#format-data)
-  * [frame_107_whole_keypoints_df.pkl](https://github.com/SJSUMS/SMFAI/blob/main/Human%20Pose%20Estimation/frame_107_whole_keypoints_df.pkl) | [1502979799293_frame_107_whole.png
-](https://github.com/SJSUMS/SMFAI/blob/main/samples/lip_clothes_person_4be21d0a1-n11/1502979799293_frame_107_whole.png)
-- Garment Warping
-- Reconstruction
+
+- Human Pose Shape Estimation
+  * Keypoints: 18 body keypoints from the pretrained [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+  * Body parsing: pretraind on [MHP dataset](https://lv-mhp.github.io/).
+  * Video tracking: [OpenCV](https://docs.opencv.org/)
+  
+- Garment Warping / Geometric Matching Module
+
+- Reconstruction / Try-On Module
+
+
 # Demo
+
+
+### Contributor
+|Module  | Human Pose Estimation | Garment Segmentation | Garment Warping (GMM) |  Try-On (TOM)|
+|:------ | :----- | :------ | :----- | :----|
+|Contributor  | Mavis Wang | Xiaocen Xie |  Ililta Gebrihiwet  | CoCo Yu |
+
+
+### Citation
+@inproceedings{wang2018toward,
+	title={Toward Characteristic-Preserving Image-based Virtual Try-On Network},
+	author={Wang, Bochao and Zheng, Huabin and Liang, Xiaodan and Chen, Yimin and Lin, Liang},
+	booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
+	pages={589--604},
+	year={2018}
+}
