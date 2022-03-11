@@ -1,4 +1,5 @@
-This project is highly influenced and inferred by [Toward Characteristic-Preserving Image-based Virtual Try-On Network](https://arxiv.org/abs/1807.07688) and [CP-VTON](https://github.com/sergeywong/cp-vton).
+This project is highly influenced by [Toward Characteristic-Preserving Image-based Virtual Try-On Network](https://arxiv.org/abs/1807.07688) 
+and reproduced based on the repo [CP-VTON](https://github.com/sergeywong/cp-vton) Network.
 
 
 # Dataset
@@ -10,17 +11,32 @@ This project is highly influenced and inferred by [Toward Characteristic-Preserv
 	* Target Cloth: [FPI (Fashion Product Image)](https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset)
 	* Video: Superdry Inc.
 
+- Inputs (image/video/webcam): 
+	1 Reference person (image)
+	2. Human keypoints (pose-json)
+	3. Human parsing segments (image-parse)
+	4. Target cloth (cloth)
+	5. Cloth segmentation (cloth-mask)
+
+- Output (image/video):
+	1. warped garment images
+	2. real-time try-on images
+
+
 # Modules
-- Garment Detection
+1. Garment Detection
+  	* Segmentation inference using Keras MaskRCNN pretrained on COCO.
 
-- Human Pose Shape Estimation
-  * Keypoints: 18 body keypoints from the pretrained [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
-  * Body parsing: pretraind on [MHP dataset](https://lv-mhp.github.io/).
-  * Video tracking: [OpenCV](https://docs.opencv.org/)
+2. Human Pose Shape Estimation
+  	* Keypoints: 18 body keypoints from Cafe [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+  	* Body parsing: fine-grained body segmentation, pretraind on [MHP dataset](https://lv-mhp.github.io/).
+  	* Video tracking: [OpenCV](https://docs.opencv.org/)
   
-- Garment Warping / Geometric Matching Module
+3. Garment Warping
+	* CP-VTON Geometric Matching Module
 
-- Reconstruction / Try-On Module
+4. Reconstruction
+	* CP-VTON Try-On Module
 
 
 # Demo
