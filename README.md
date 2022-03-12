@@ -12,7 +12,7 @@ and reproduced based on the repo [CP-VTON](https://github.com/sergeywong/cp-vton
 	* Video: Superdry Inc.
 
 - Inputs (image/video/webcam): 
-	1 Reference person (image)
+	1. Reference person (image)
 	2. Human keypoints (pose-json)
 	3. Human parsing segments (image-parse)
 	4. Target cloth (cloth)
@@ -43,7 +43,7 @@ and reproduced based on the repo [CP-VTON](https://github.com/sergeywong/cp-vton
 
 
 ### Contributor
-|SMFAI Modules  | Human Pose Estimation | Garment Segmentation | Garment Warping (GMM) |  Try-On (TOM)|
+|SMFAI Modules  | Human Pose Estimation | Garment Segmentation | CP-VTON GMM |  CP-VTON TOM |
 |:------ | :----- | :------ | :----- | :----|
 |Contributor  | [Mavis Wang](https://github.com/mavisw) | [Xiaocen Xie](https://github.com/tiffanyxxc) |  [Ililta Gebrihiwet](https://github.com/ililtaG)  | [CoCo Yu](https://github.com/cocosjsu) |
 
