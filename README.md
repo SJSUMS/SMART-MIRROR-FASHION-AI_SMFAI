@@ -45,7 +45,7 @@ and reproduced based on the repo [CP-VTON](https://github.com/sergeywong/cp-vton
 ### Contributor
 |SMFAI Modules  | Human Pose Estimation | Garment Segmentation | Garment Warping (GMM) |  Try-On (TOM)|
 |:------ | :----- | :------ | :----- | :----|
-|Contributor  | Mavis Wang | Xiaocen Xie |  Ililta Gebrihiwet  | CoCo Yu |
+|Contributor  | [Mavis Wang](https://github.com/mavisw) | [Xiaocen Xie](https://github.com/tiffanyxxc) |  [Ililta Gebrihiwet](https://github.com/ililtaG)  | [CoCo Yu](https://github.com/cocosjsu) |
 
 
 ### Citation
