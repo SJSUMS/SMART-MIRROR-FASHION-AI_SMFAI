@@ -1,5 +1,5 @@
 This project is highly influenced by [Toward Characteristic-Preserving Image-based Virtual Try-On Network](https://arxiv.org/abs/1807.07688) 
-and reproduced based on the repo [CP-VTON](https://github.com/sergeywong/cp-vton) Network.
+and reproduced based on the repo [CP-VTON-Plus](https://github.com/minar09/cp-vton-plus) Network.
 
 
 # Dataset
@@ -49,10 +49,10 @@ and reproduced based on the repo [CP-VTON](https://github.com/sergeywong/cp-vton
 
 
 ### Citation
-@inproceedings{wang2018toward,
-	title={Toward Characteristic-Preserving Image-based Virtual Try-On Network},
-	author={Wang, Bochao and Zheng, Huabin and Liang, Xiaodan and Chen, Yimin and Lin, Liang},
-	booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
-	pages={589--604},
-	year={2018}
+@InProceedings{Minar_CPP_2020_CVPR_Workshops,
+	title={CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On},
+	author={Minar, Matiur Rahman and Thai Thanh Tuan and Ahn, Heejune and Rosin, Paul and Lai, Yu-Kun},
+	booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+	month = {June},
+	year = {2020}
 }
