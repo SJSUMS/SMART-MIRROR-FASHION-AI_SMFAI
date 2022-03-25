@@ -25,7 +25,7 @@ and reproduced based on the repo [CP-VTON](https://github.com/sergeywong/cp-vton
 
 # Modules
 1. Garment Detection
-  	* Segmentation inference using Keras MaskRCNN pretrained on COCO.
+  	* Clothing item masks
 
 2. Human Pose Shape Estimation
   	* Keypoints: 18 body keypoints from Cafe [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
@@ -43,7 +43,7 @@ and reproduced based on the repo [CP-VTON](https://github.com/sergeywong/cp-vton
 
 
 ### Contributor
-|SMFAI Modules  | Human Pose Estimation | Garment Segmentation | CP-VTON GMM |  CP-VTON TOM |
+|SMFAI Modules  | Human Pose Estimation | Garment Mask | CP-VTON GMM |  CP-VTON TOM |
 |:------ | :----- | :------ | :----- | :----|
 |Contributor  | [Mavis Wang](https://github.com/mavisw) | [Xiaocen Xie](https://github.com/tiffanyxxc) |  [Ililta Gebrihiwet](https://github.com/ililtaG)  | [CoCo Yu](https://github.com/cocosjsu) |
 
