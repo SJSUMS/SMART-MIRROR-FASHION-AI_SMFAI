@@ -1,3 +1,5 @@
+# Smart Mirror Fashion AI - video-based virtual tryon
+
 This project is highly influenced by [Toward Characteristic-Preserving Image-based Virtual Try-On Network](https://arxiv.org/abs/1807.07688) 
 and reproduced based on the repo [CP-VTON-Plus](https://github.com/minar09/cp-vton-plus) Network.
 
@@ -11,41 +13,49 @@ and reproduced based on the repo [CP-VTON-Plus](https://github.com/minar09/cp-vt
 	* Target Cloth: [FPI (Fashion Product Image)](https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset)
 	* Video: Superdry Inc.
 
-- Inputs (image/video/webcam): 
-	1. Reference person (image)
-	2. Human keypoints (pose-json)
-	3. Human parsing segments (image-parse)
-	4. Target cloth (cloth)
-	5. Cloth segmentation (cloth-mask)
-
-- Output (image/video):
-	1. warped garment images
-	2. real-time try-on images
-
+# SMFAI Network 
+- Input
+	* Reference Person (Video)
+	* Target Cloth Item (Image)
+- Output
+	* video body keypoints tracking
+	* cloth transferring try-on video
 
 # Modules
-1. Garment Detection
-  	* Clothing item masks
+1. Garment Mask
+- Input: LIP cloth image
+- Output: cloth binary mask
 
-2. Human Pose Shape Estimation
-  	* Keypoints: 18 body keypoints from Cafe [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
-  	* Body parsing: fine-grained body segmentation, pretraind on [MHP dataset](https://lv-mhp.github.io/).
-  	* Video tracking: [OpenCV](https://docs.opencv.org/)
-  
-3. Garment Warping
-	* CP-VTON Geometric Matching Module
+2. Human Pose Shape Estimation and Tracking
+- Input: Reference Person Video
+- Output:
+	* Extracted Video frames
+  	* 18 json keypoints in [OpenPose annotations](https://github.com/CMU-Perceptual-Computing-Lab/openpose) annotation.
+  	* Body parsing pretained on LIP 20.
+	* Improved 7 fine-grained body segmentation.
+  	* Improved body binary mask.
+	* Temperal and spatial object tracking: [OpenCV](https://docs.opencv.org/)
+	* Pose tracking video
 
-4. Reconstruction
-	* CP-VTON Try-On Module
+3. Try-on
+- Input: outputs from #1 and #2
+- Output: try-on video
 
+# Tasks
+* Final test video
+* Final cloth images
+* Module development and testing
+* Object Tracking 
+* Try-on model testing and improvement 
+* Network development
+* Network testing and evaluation
+* Deployment (flask)
+* Demo UI Web Page
 
-# Demo
-
-
-### Contributor
-|SMFAI Modules  | Human Pose Estimation | Garment Mask | CP-VTON GMM |  CP-VTON TOM |
-|:------ | :----- | :------ | :----- | :----|
-|Contributor  | [Mavis Wang](https://github.com/mavisw) | [Xiaocen Xie](https://github.com/tiffanyxxc) |  [Ililta Gebrihiwet](https://github.com/ililtaG)  | [Ting-wei (CoCo) Yu](https://github.com/cocosjsu) |
+### Network Modules
+|SMFAI NN | Human Pose Shape Estimation, video tracking input/output| LIP test data Cloth Mask| CP-VTON Inference |
+|:------ |:------ | :----- | :----|
+|Contributor  | [Mavis Wang](https://github.com/mavisw) | [Xiaocen Xie](https://github.com/tiffanyxxc) |  [Ililta Gebrihiwet](https://github.com/ililtaG), [Ting-wei (CoCo) Yu](https://github.com/cocosjsu) |
 
 
 ### Citation
