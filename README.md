@@ -25,13 +25,13 @@
 ## Tasks
 0. [x] Data collection
 1. [x] Finalize test dataset - ref_person video
-2. [ ] Finalize test dataset - target cloth
+2. [x] Finalize test dataset - target cloth
 3. [x] Individual module development, testing, and improvement
 4. [x] Test Video Object Tracking
 5. [x] SMFAI network pipeline testing 
 6. [x] Network development
-7. [ ] Network testing
-8. [ ] Network evaluation
+7. [x] Network testing
+8. [x] Network evaluation
 9. [ ] Deployment (Flask)
 10. [ ] Demo Web Page
 
