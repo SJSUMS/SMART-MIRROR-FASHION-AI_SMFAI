@@ -1,11 +1,16 @@
 # Smart Mirror Fashion AI - video-based virtual tryon
 ### Features
+Video virtual try-on using image-based CP-VTON+
 
-### Contributions
+### Training Data
+- [Vition](https://drive.google.com/file/d/14tKmGjpt2rjvc4n8kkpdqs73EfUN0ys_/view?usp=sharing)
+- [VITON_PLUS](https://1drv.ms/u/s!Ai8t8GAHdzVUiQQYX0azYhqIDPP6?e=4cpFTI)
+- [processed train/test](https://1drv.ms/u/s!Ai8t8GAHdzVUiQQYX0azYhqIDPP6?e=4cpFTI)
 
 ## Test Data
 - Reference Person Try-On Video: public clothing website.
 - Target Clothes: LIP, [FPI (Fashion Product Image)](https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset)
+- [CP-VTON-Plus (Google Drive)](https://drive.google.com/file/d/19RCQFjkbFaufXU518KAtkQtlfhTd9hsj/view?usp=sharing)
 
 ## SMFAI Network 
 ### Input
