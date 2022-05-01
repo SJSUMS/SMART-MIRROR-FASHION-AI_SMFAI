@@ -36,6 +36,7 @@
 10. [ ] Demo Web Page
 
 ## Demo
+[System Integration Video](https://youtu.be/OKBlrNRCLjs)
 
 ### Citation
 	@InProceedings{Minar_CPP_2020_CVPR_Workshops,
