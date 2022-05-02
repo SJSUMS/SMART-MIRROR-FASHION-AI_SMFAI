@@ -2,7 +2,10 @@
 ### Features
 Video virtual try-on using image-based CP-VTON+
 
-### Training Data
+### Data Process Pipeline
+<img src = 'https://raw.githubusercontent.com/SJSUMS/SMFAI/main/data_process_pipe.png' width="800"></img>
+
+## Training Data
 - [Vition](https://drive.google.com/file/d/14tKmGjpt2rjvc4n8kkpdqs73EfUN0ys_/view?usp=sharing)
 - [VITON_PLUS](https://1drv.ms/u/s!Ai8t8GAHdzVUiQQYX0azYhqIDPP6?e=4cpFTI)
 - [processed train/test](https://1drv.ms/u/s!Ai8t8GAHdzVUiQQYX0azYhqIDPP6?e=4cpFTI)
@@ -13,6 +16,7 @@ Video virtual try-on using image-based CP-VTON+
 - [CP-VTON-Plus (Google Drive)](https://drive.google.com/file/d/19RCQFjkbFaufXU518KAtkQtlfhTd9hsj/view?usp=sharing)
 
 ## SMFAI Network 
+<img src="https://raw.githubusercontent.com/SJSUMS/SMFAI/main/video_tryOn_system_pipe.png"></img>
 ### Input
 	* Reference Person (Video)
 	* Target Cloth Item (Image)
@@ -25,7 +29,6 @@ Video virtual try-on using image-based CP-VTON+
 3. Human Pose Shape Estimation
 4. Try-on (CP-VTON-PLUS)
 5. Video Pose Tracking
-
 
 ## Tasks
 0. [x] Data collection
