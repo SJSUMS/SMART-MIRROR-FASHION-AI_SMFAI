@@ -40,11 +40,12 @@ Video virtual try-on using image-based CP-VTON+
 6. [x] Network development
 7. [x] Network testing
 8. [x] Network evaluation
-9. [ ] Deployment (Flask)
-10. [ ] Demo Web Page
+9. [x] Models integration
+10. [ ] Sys Integration/Deployment Web App (Flask)
 
 ## Demo
-[System Integration Video](https://youtu.be/OKBlrNRCLjs)
+- [Model Integration Video](https://youtu.be/OKBlrNRCLjs)
+- [Sample try-on Results (Custom and VVT Dataset)](https://youtube.com/shorts/ptAGrvSjFB8)
 
 ### Citation
 	@InProceedings{Minar_CPP_2020_CVPR_Workshops,
