@@ -1,4 +1,7 @@
 # Smart Mirror Fashion AI - video-based virtual tryon
+<img src='https://github.com/SJSUMS/SMFAI/blob/main/samples/test_tryOn.gif?raw=true'></img>
+
+
 ### Features
 Video virtual try-on using image-based CP-VTON+
 
