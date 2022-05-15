@@ -1,9 +1,6 @@
 # Smart Mirror Fashion AI - video-based virtual tryon
+A Video-based virtual try-on using image-based CP-VTON+ repo.
 <img src='https://github.com/SJSUMS/SMFAI/blob/main/samples/test_tryOn.gif?raw=true'></img>
-
-
-### Features
-Video virtual try-on using image-based CP-VTON+
 
 ### Data Process Pipeline
 <img src = 'https://raw.githubusercontent.com/SJSUMS/SMFAI/main/data_process_pipe.png' width="800"></img>
@@ -44,7 +41,7 @@ Video virtual try-on using image-based CP-VTON+
 7. [x] Network testing
 8. [x] Network evaluation
 9. [x] Models integration
-10. [ ] Sys Integration/Deployment Web App (Flask)
+10. [x] Sys Integration/Deployment Web App (Flask)
 
 ## Demo
 - [Model Integration Video](https://youtu.be/OKBlrNRCLjs)
