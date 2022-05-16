@@ -1,6 +1,7 @@
 # Smart Mirror Fashion AI - video-based virtual tryon
-A Video-based virtual try-on using image-based CP-VTON+ repo.
-<img src='https://github.com/SJSUMS/SMFAI/blob/main/samples/test_tryOn.gif?raw=true'></img>
+## A Video-based virtual try-on using image-based CP-VTON+ repo.
+- Improved human parsing
+- Improved pose detection
 
 ### Data Process Pipeline
 <img src = 'https://raw.githubusercontent.com/SJSUMS/SMFAI/main/data_process_pipe.png' width="800"></img>
@@ -23,6 +24,9 @@ A Video-based virtual try-on using image-based CP-VTON+ repo.
 ### Output
 	* body keypoints tracking video
 	* cloth transferring try-on video
+	
+### Result
+<img src='https://github.com/SJSUMS/SMFAI/blob/main/samples/test_tryOn.gif?raw=true'></img>
 
 ## Modules
 1. Garment Mask
