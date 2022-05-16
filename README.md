@@ -41,7 +41,7 @@ A Video-based virtual try-on using image-based CP-VTON+ repo.
 7. [x] Network testing
 8. [x] Network evaluation
 9. [x] Models integration
-10. [x] Sys Integration/Deployment Web App (Flask)
+10. [] Web App (Flask)
 
 ## Demo
 - [Model Integration Video](https://youtu.be/OKBlrNRCLjs)
