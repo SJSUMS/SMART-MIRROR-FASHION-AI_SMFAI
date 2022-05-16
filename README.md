@@ -45,6 +45,7 @@
 7. [x] Network testing
 8. [x] Network evaluation
 9. [x] Models integration
+10. [x] [Project Management](https://docs.google.com/document/d/1CZBH8DMEAly8ph0o73ss86cWLaEAVXaP4QX_QNFyV_4/edit?usp=sharing)
 
 ## Demo
 - [Model Integration Video](https://youtu.be/OKBlrNRCLjs)
