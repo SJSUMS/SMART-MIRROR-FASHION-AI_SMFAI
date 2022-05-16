@@ -26,9 +26,9 @@ A Video-based virtual try-on using image-based CP-VTON+ repo.
 
 ## Modules
 1. Garment Mask
+2. Video Pose Tracking
 3. Human Pose Shape Estimation
-4. Try-on (CP-VTON-PLUS)
-5. Video Pose Tracking
+4. Try-on Model (CP-VTON+)
 
 ## Tasks
 0. [x] Data collection
