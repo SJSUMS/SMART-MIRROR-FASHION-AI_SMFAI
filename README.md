@@ -3,7 +3,7 @@
 - Improved human parsing
 - Improved pose detection
 
-### Data Process Pipeline
+### Required Data Pre-Processing (for CP-VTON+) Pipeline
 <img src = 'https://raw.githubusercontent.com/SJSUMS/SMFAI/main/data_process_pipe.png' width="800"></img>
 
 ## Training Data
@@ -25,8 +25,10 @@
 	* body keypoints tracking video
 	* cloth transferring try-on video
 	
-### Result
-<img src='https://github.com/SJSUMS/SMFAI/blob/main/samples/test_tryOn.gif?raw=true'></img>
+### Test Result
+- Custom Video
+- VVT
+<img src='https://github.com/SJSUMS/SMFAI/blob/main/samples/SMFAI VVT.gif?raw=true'></img>
 
 ## Modules
 1. Garment Mask
