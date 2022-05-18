@@ -1,7 +1,7 @@
 # Smart Mirror Fashion AI - video-based virtual tryon
 ## A Video-based virtual try-on using image-based CP-VTON+ repo.
 - Improved human parsing
-- Improved pose detection
+- Improved body pose detection
 
 ### Sample Result
 - Custom Video
@@ -18,7 +18,7 @@
 - [processed train/test](https://1drv.ms/u/s!Ai8t8GAHdzVUiQQYX0azYhqIDPP6?e=4cpFTI)
 
 ## Test Data
-- Reference Person Try-On Video: public clothing website.
+- Reference Person Try-On Video: custom, VVT, online shop.
 - Target Clothes: LIP, [FPI (Fashion Product Image)](https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset)
 - [CP-VTON-Plus (Google Drive)](https://drive.google.com/file/d/19RCQFjkbFaufXU518KAtkQtlfhTd9hsj/view?usp=sharing)
 
@@ -31,24 +31,22 @@
 	* body keypoints tracking video
 	* cloth transferring try-on video
 
-## Modules
-1. Garment Mask
-2. Video Pose Tracking
-3. Human Pose Shape Estimation
-4. Try-on Model (CP-VTON+)
+## Related Models
+1. OpenPose Keypoints
+2. SCHP Body Parsing
+3. CP-VTON+ (Inference)
 
 ## Tasks
-0. [x] Data collection
-1. [x] Finalize test dataset - ref_person video
-2. [x] Finalize test dataset - target cloth
-3. [x] Individual module development, testing, and improvement
-4. [x] Test Video Object Tracking
-5. [x] SMFAI network pipeline testing 
-6. [x] Network development
-7. [x] Network testing
-8. [x] Network evaluation
-9. [x] Models integration
-10. [x] [Project Management](https://docs.google.com/document/d/1CZBH8DMEAly8ph0o73ss86cWLaEAVXaP4QX_QNFyV_4/edit?usp=sharing)
+0. [x] [Project Roadmap](https://docs.google.com/document/d/1CZBH8DMEAly8ph0o73ss86cWLaEAVXaP4QX_QNFyV_4/edit?usp=sharing)
+1. [x] Collect and Pre-process FPI(cloth) and video(ref-person)
+2. [x] Evaluate human pose models
+3. [x] Evaluate body semantic segmentation models
+4. [x] Evaluate real-time tracking (OpenCV)
+5. [x] Design SMFAI model Network
+6. [x] Model integration and testing
+6.1 [x] Process required inputs for pre-trained CP-VTON+ 
+6.2 [x] Evaluate CP-VTON+ inference with shop video, VVT, and custom video
+6.3 [x] Evaluate and improve video
 
 ## Demo
 - [Model Integration Video](https://youtu.be/OKBlrNRCLjs)
