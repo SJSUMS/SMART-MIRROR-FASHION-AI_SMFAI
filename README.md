@@ -6,6 +6,7 @@
 ### Sample Result
 - Custom Video
 - VVT
+<br>
 <img src='https://github.com/SJSUMS/SMFAI/blob/main/samples/SMFAI VVT.gif?raw=true'></img>
 
 ### Required Data Pre-Processing (for CP-VTON+) Pipeline
