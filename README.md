@@ -44,9 +44,9 @@
 4. [x] Evaluate real-time tracking (OpenCV)
 5. [x] Design SMFAI model Network
 6. [x] Model integration and testing
-6.1 [x] Process required inputs for pre-trained CP-VTON+ 
-6.2 [x] Evaluate CP-VTON+ inference with shop video, VVT, and custom video
-6.3 [x] Evaluate and improve video
+7. [x] Process required inputs for pre-trained CP-VTON+ 
+8. [x] Evaluate CP-VTON+ inference with shop video, VVT, and custom video
+9. [x] Evaluation and improvements 
 
 ## Demo
 - [Model Integration Video](https://youtu.be/OKBlrNRCLjs)
