@@ -2,7 +2,7 @@
 ## A Video-based virtual try-on using image-based CP-VTON+ repo.
 - Improved human parsing
 - Improved body pose <br>
-<img src="https://raw.githubusercontent.com/SJSUMS/SMFAI/main/SMFAI_VVT.gif"></img>
+<img src="https://raw.githubusercontent.com/SJSUMS/SMFAI/main/samples/SMFAI_VVT.gif"></img>
 
 ### Required Data Pre-Processing (for CP-VTON+) Pipeline
 <img src = 'https://raw.githubusercontent.com/SJSUMS/SMFAI/main/data_process_pipe.png' width="800"></img>
