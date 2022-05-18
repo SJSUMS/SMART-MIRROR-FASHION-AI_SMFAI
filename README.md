@@ -1,13 +1,7 @@
 # Smart Mirror Fashion AI - video-based virtual tryon
 ## A Video-based virtual try-on using image-based CP-VTON+ repo.
 - Improved human parsing
-- Improved body pose detection
-
-### Sample Result
-- Custom Video
-- VVT
-<br>
-<img src='https://github.com/SJSUMS/SMFAI/blob/main/samples/SMFAI VVT.gif?raw=true'></img>
+- Improved body pose
 
 ### Required Data Pre-Processing (for CP-VTON+) Pipeline
 <img src = 'https://raw.githubusercontent.com/SJSUMS/SMFAI/main/data_process_pipe.png' width="800"></img>
@@ -48,7 +42,7 @@
 8. [x] Evaluate CP-VTON+ inference with shop video, VVT, and custom video
 9. [x] Evaluation and improvements 
 
-## Demo
+## Sample Results & Demo
 - [Model Integration Video](https://youtu.be/OKBlrNRCLjs)
 - [Sample try-on Results (Custom and VVT Dataset)](https://youtube.com/shorts/ptAGrvSjFB8)
 
