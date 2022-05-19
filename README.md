@@ -32,7 +32,7 @@
 3. CP-VTON+ (Inference)
 
 ## Tasks
-0. [x] [Project Roadmap](https://docs.google.com/document/d/1CZBH8DMEAly8ph0o73ss86cWLaEAVXaP4QX_QNFyV_4/edit?usp=sharing)
+0. [x] [Project Roadmap](https://docs.google.com/document/d/1MXUAQKdEA03zjPbgdNf1WuMQgRmi9ZkXiTjHhuz830Y/)
 1. [x] Collect and Pre-process FPI(cloth) and video(ref-person)
 2. [x] Evaluate human pose models
 3. [x] Evaluate body semantic segmentation models
