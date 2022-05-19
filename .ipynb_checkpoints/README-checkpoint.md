@@ -31,17 +31,7 @@
 2. SCHP Body Parsing
 3. CP-VTON+ (Inference)
 
-## Tasks
-0. [x] [Project Roadmap](https://docs.google.com/document/d/1MXUAQKdEA03zjPbgdNf1WuMQgRmi9ZkXiTjHhuz830Y/)
-1. [x] Collect and Pre-process FPI(cloth) and video(ref-person)
-2. [x] Evaluate human pose models
-3. [x] Evaluate body semantic segmentation models
-4. [x] Evaluate real-time tracking (OpenCV)
-5. [x] Design SMFAI model Network
-6. [x] Model integration and testing
-7. [x] Process required inputs for pre-trained CP-VTON+ 
-8. [x] Evaluate CP-VTON+ inference with shop video, VVT, and custom video
-9. [x] Evaluation and improvements 
+## [Tasks and Roadmap](https://docs.google.com/document/d/1MXUAQKdEA03zjPbgdNf1WuMQgRmi9ZkXiTjHhuz830Y/)
 
 ## Sample Results & Demo
 - [Model Integration Video](https://youtu.be/OKBlrNRCLjs)
