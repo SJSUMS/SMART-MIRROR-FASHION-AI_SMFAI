@@ -1,4 +1,4 @@
-# Smart Mirror Fashion AI - video-based virtual tryon
+# Smart Mirror Fashion AI
 ## A Video-based virtual try-on using image-based CP-VTON+ repo.
 - Improved human parsing
 - Improved body pose <br>
