@@ -59,7 +59,7 @@ A video virtual try-on network using CP-VTON-PLUS.
 
 ### Results
 <img src="https://raw.githubusercontent.com/SJSUMS/SMFAI/main/samples/SMFAI_VVT.gif"></img><br>
-<img src="https://raw.githubusercontent.com/SJSUMS/SMFAI/main/samples/SMFAI_custom.gif"></img>
+<img src="https://raw.githubusercontent.com/SJSUMS/SMFAI/main/samples/SMFAI_custom.png"></img>
 
 ### Demo
 - [Model Integration Video](https://youtu.be/OKBlrNRCLjs)
