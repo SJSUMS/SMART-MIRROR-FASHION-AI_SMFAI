@@ -1,24 +1,12 @@
+#### Data298 MSDA Project 2022.05<br>
+Team 8: Mavis Wang, Coco Yu, Xiaocen Xie, Ililta Gebrihiwet
+
 # Smart Mirror Fashion AI
-## A Video-based virtual try-on using image-based CP-VTON+ repo.
-- Improved human parsing
-- Improved body pose <br>
-<img src="https://raw.githubusercontent.com/SJSUMS/SMFAI/main/samples/SMFAI_VVT.gif"></img>
+A video virtual try-on network using CP-VTON-PLUS.
 
-### Required Data Pre-Processing (for CP-VTON+) Pipeline
-<img src = 'https://raw.githubusercontent.com/SJSUMS/SMFAI/main/data_process_pipe.png' width="800"></img>
-
-## Training Data
-- [Vition](https://drive.google.com/file/d/14tKmGjpt2rjvc4n8kkpdqs73EfUN0ys_/view?usp=sharing)
-- [VITON_PLUS](https://1drv.ms/u/s!Ai8t8GAHdzVUiQQYX0azYhqIDPP6?e=4cpFTI)
-- [processed train/test](https://1drv.ms/u/s!Ai8t8GAHdzVUiQQYX0azYhqIDPP6?e=4cpFTI)
-
-## Test Data
-- Reference Person Try-On Video: custom, VVT, online shop.
-- Target Clothes: LIP, [FPI (Fashion Product Image)](https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset)
-- [CP-VTON-Plus (Google Drive)](https://drive.google.com/file/d/19RCQFjkbFaufXU518KAtkQtlfhTd9hsj/view?usp=sharing)
-
-## SMFAI Network 
+### SMFAI Network
 <img src="https://raw.githubusercontent.com/SJSUMS/SMFAI/main/video_tryOn_system_pipe.png"></img>
+
 ### Input
 	* Reference Person (Video)
 	* Target Cloth Item (Image)
@@ -26,14 +14,54 @@
 	* body keypoints tracking video
 	* cloth transferring try-on video
 
-## Related Models
-1. OpenPose Keypoints
-2. SCHP Body Parsing
-3. CP-VTON+ (Inference)
+### Dataset
+- [Processed train/test VTON](https://drive.google.com/file/d/19RCQFjkbFaufXU518KAtkQtlfhTd9hsj/view?usp=sharing)
+- [Processed Custom Person Video](https://github.com/SJSUMS/SMFAI/tree/main/data)
+- [Processed CP-VTON Clothing and Mask](https://drive.google.com/file/d/19RCQFjkbFaufXU518KAtkQtlfhTd9hsj/view?usp=sharing)
 
-## [Tasks and Roadmap](https://docs.google.com/document/d/1MXUAQKdEA03zjPbgdNf1WuMQgRmi9ZkXiTjHhuz830Y/)
+### Human Video Data-Processing
+<img src = 'https://raw.githubusercontent.com/SJSUMS/SMFAI/main/data_process_pipe.png' width="800"></img>
 
-## Sample Results & Demo
+### Human Pose Shape model Improvement
+- Improved pose tracking
+- Improved human parsing (fixed-neck)
+- Improved body pose estimation <br>
+
+
+## [Project Management](https://raw.githubusercontent.com/SJSUMS/SMFAI/main/298_T8_Roadmap.pdf)
+
+### SMFAI Modules
+- [x] Video Processing and Tracking @ Mavis Wang
+- [x] Garment Mask @ Xiaocen Xie
+- [x] Human body Pose Shape Estimation @ Mavis Wang
+- [x] CP-VTON GMM @ Ililta Gebrihiwet
+- [x] CP-VTON TOM @ Coco Yu
+
+### Tasks
+- [x] Roadmap
+- [x] Data collection
+- [x] Finalize test dataset - ref_person video
+- [x] Finalize test dataset - target cloth
+- [x] Individual module development, testing, and improvement
+- [x] Test Video Object Tracking
+- [x] SMFAI network pipeline testing
+- [x] Network development
+- [x] Network testing
+- [x] Network evaluation
+- [x] Models integration
+
+### Final Project Demo [Slide]()
+- [x] Evaluation @ Xiaocen Xie
+- [x] Modeling @ Coco Yu
+- [x] Testing Results @ Mavis Wang
+- [x] Model Integration @ Mavis Wang
+- [x] Web App Portal @ Ililta Gebrihiwet
+
+### Results
+<img src="https://raw.githubusercontent.com/SJSUMS/SMFAI/main/samples/SMFAI_VVT.gif"></img><br>
+<img src="https://raw.githubusercontent.com/SJSUMS/SMFAI/main/samples/SMFAI_custom.gif"></img>
+
+### Demo
 - [Model Integration Video](https://youtu.be/OKBlrNRCLjs)
 - [Sample try-on Results (Custom and VVT Dataset)](https://youtube.com/shorts/ptAGrvSjFB8)
 
