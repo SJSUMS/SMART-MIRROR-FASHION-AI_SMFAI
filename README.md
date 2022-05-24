@@ -31,12 +31,6 @@ A video virtual try-on network using CP-VTON-PLUS.
 <img src="https://raw.githubusercontent.com/SJSUMS/SMFAI/main/samples/SMFAI_VVT.gif"></img><br>
 <img width=800 src="https://raw.githubusercontent.com/SJSUMS/SMFAI/main/samples/SMFAI_custom.png"></img>
 
-### Demo [Slide](https://github.com/SJSUMS/SMFAI/blob/main/Slide.pdf)
-- [x] Evaluation @ Xiaocen Xie
-- [x] Modeling @ Coco Yu
-- [x] Testing Results @ Mavis Wang
-- [x] [Model Integration](https://youtu.be/OKBlrNRCLjs) @ Mavis Wang
-- [x] Web App Portal @ Ililta Gebrihiwet
 
 ## [Project Management](https://raw.githubusercontent.com/SJSUMS/SMFAI/main/298_T8_Roadmap.pdf)
 
@@ -59,6 +53,13 @@ A video virtual try-on network using CP-VTON-PLUS.
 - [x] Network testing
 - [x] Network evaluation
 - [x] Models integration
+
+### Final Demo [Slide](https://github.com/SJSUMS/SMFAI/blob/main/Slide.pdf)
+- [x] Evaluation @ Xiaocen Xie
+- [x] Modeling @ Coco Yu
+- [x] Testing Results @ Mavis Wang
+- [x] [Model Integration](https://youtu.be/OKBlrNRCLjs) @ Mavis Wang
+- [x] Web App Portal @ Ililta Gebrihiwet
 
 ### Citation
 	@InProceedings{Minar_CPP_2020_CVPR_Workshops,
