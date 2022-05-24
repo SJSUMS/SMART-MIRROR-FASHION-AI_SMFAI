@@ -50,7 +50,7 @@ A video virtual try-on network using CP-VTON-PLUS.
 - [x] Network evaluation
 - [x] Models integration
 
-### Final Project Demo [Slide]()
+### Final Project Demo [Slide](https://github.com/SJSUMS/SMFAI/blob/main/Slide.pdf)
 - [x] Evaluation @ Xiaocen Xie
 - [x] Modeling @ Coco Yu
 - [x] Testing Results @ Mavis Wang
@@ -59,7 +59,7 @@ A video virtual try-on network using CP-VTON-PLUS.
 
 ### Results
 <img src="https://raw.githubusercontent.com/SJSUMS/SMFAI/main/samples/SMFAI_VVT.gif"></img><br>
-<img src="https://raw.githubusercontent.com/SJSUMS/SMFAI/main/samples/SMFAI_custom.png"></img>
+<img width=800 src="https://raw.githubusercontent.com/SJSUMS/SMFAI/main/samples/SMFAI_custom.png"></img>
 
 ### Demo
 - [Model Integration Video](https://youtu.be/OKBlrNRCLjs)
