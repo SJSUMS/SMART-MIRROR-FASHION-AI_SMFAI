@@ -62,6 +62,12 @@ A video virtual try-on network using CP-VTON-PLUS.
 - [x] Web App Portal @ Ililta Gebrihiwet
 
 ### Citation
+	@InProceedings{SJSU MSDA Program Project SMFAI,
+		title={Smart Mirror-Based Fashion AI Based on Machine Learning},
+		author={Mavis Wang, Coco Yu, Xiaocen Xie, Ililta Gebrihiwet},
+		month = {May},
+		year = {2022}
+	}
 	@InProceedings{Minar_CPP_2020_CVPR_Workshops,
 		title={CP-VTON+: Clothing Shape and Texture Preserving Image-Based Virtual Try-On},
 		author={Minar, Matiur Rahman and Thai Thanh Tuan and Ahn, Heejune and Rosin, Paul and Lai, Yu-Kun},
