@@ -32,7 +32,7 @@ A video virtual try-on network using CP-VTON-PLUS.
 <img width=800 src="https://raw.githubusercontent.com/SJSUMS/SMFAI/main/samples/SMFAI_custom.png"></img>
 
 
-## [Project Management](https://raw.githubusercontent.com/SJSUMS/SMFAI/main/298_T8_Roadmap.pdf)
+## [Project Management](https://github.com/SJSUMS/SMART-MIRROR-FASHION-AI_SMFAI/blob/main/298_T8_Roadmap.pdf)
 
 ### SMFAI Modules
 - [x] Video Processing and Tracking @ Mavis Wang
