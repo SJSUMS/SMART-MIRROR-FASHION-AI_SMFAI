@@ -27,7 +27,7 @@ A smart-mirror-based fashion AI using CP-VTON-PLUS.
 - Improved human parsing (fixed-neck)
 - Improved body pose estimation <br>
 
-## [Results & Demo Slide](https://docs.google.com/presentation/d/1W9EX6I1CSOGP5xG442MBNvy3LTTXj0WvzNXudqvS4nY/edit?usp=sharing)
+## Results
 <img src="https://raw.githubusercontent.com/SJSUMS/SMFAI/main/samples/SMFAI_VVT.gif"></img><br>
 
 
