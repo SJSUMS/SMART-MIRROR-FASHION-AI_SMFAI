@@ -34,11 +34,11 @@ A smart-mirror-based fashion AI using CP-VTON-PLUS.
 ## [Project Management](https://github.com/SJSUMS/SMART-MIRROR-FASHION-AI_SMFAI/blob/main/298_T8_Roadmap.pdf)
 
 ### SMFAI Modules
-- [x] Video Processing and Tracking @ Mavis Wang
-- [x] Garment Mask @ Xiaocen Xie
-- [x] Human body Pose Shape Estimation @ Mavis Wang
-- [x] CP-VTON GMM @ Ililta Gebrihiwet
-- [x] CP-VTON TOM @ Coco Yu
+- [x] Video Processing and Tracking
+- [x] Garment Mask
+- [x] Human body Pose Shape Estimation
+- [x] CP-VTON GMM
+- [x] CP-VTON TOM
 
 ### Tasks
 - [x] Roadmap
